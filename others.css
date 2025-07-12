@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Competitive Section */
+.competitive {
+  padding: 4rem 5%;
+  text-align: center;
+}
+
+.competitive h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--accent);
+}
+
+.competitive-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.competitive-links a {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: all 0.3s ease;
+}
+
+.competitive-links a:hover {
+  background: var(--accent);
+  color: var(--dark-bg);
+  transform: scale(1.05);
+}
+
+.competitive-links i {
+  font-size: 1.5rem;
+  color: var(--accent);
+  transition: color 0.3s ease;
+}
+
+.competitive-links a:hover i {
+  color: var(--dark-bg);
+}
+
+.core-concepts {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.core-concepts span {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.core-concepts span:hover {
+  background: var(--accent);
+  color: var(--dark-bg);
+  transform: scale(1.05);
+}
+.core-concepts {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.core-concepts span {
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(135deg, var(--accent) 30%, rgba(46, 204, 113, 0.6) 100%);
+  color: var(--dark-bg);
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(46, 204, 113, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.core-concepts span:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 15px rgba(46, 204, 113, 0.4);
+}
+
